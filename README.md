@@ -1,4 +1,4 @@
-# 0 copy the file of binned.npy to 
+# 0 copy the file of binned.npy to master branch
 
 # 1 run s2_select.py to select drifter data
 
