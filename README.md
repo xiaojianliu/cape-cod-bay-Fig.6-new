@@ -10,7 +10,7 @@
 
 # 5 run s5_binavguv_model.py yo get the file of binned_model.npz
 
-# 6 run s5_binavguv_quiver3.py to draw the picture of "Fig.6.png"
+# 6 run s5_binavguv_quiver3_new.py to draw the picture of "Fig.6.png"
 
 # 7 run s5_binavguv_drifterx.py to get files of uudrifter.npy and vvdrifter.npy
 
