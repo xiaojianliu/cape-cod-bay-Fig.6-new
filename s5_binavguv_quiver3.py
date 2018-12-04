@@ -244,8 +244,8 @@ for a in np.arange(len(xxb[0])):
         
         
         if ub_num[a][b]!=0 and ub_num2[a][b]!=0:
-            p1.append((ub_mean[a][b]+ub_mean2[a][b])/2.0)
-            p2.append((vb_mean[a][b]+vb_mean2[a][b])/2.0)
+            p1.append((ub_mean[a][b]*ub_num[a][b]+ub_mean2[a][b]*ub_num2[a][b])/(ub_num[a][b]+ub_num2[a][b]))
+            p2.append((vb_mean[a][b]*ub_num[a][b]+vb_mean2[a][b]*ub_num2[a][b])/(ub_num[a][b]+ub_num2[a][b]))
         
         if ub_num[a][b]!=0 and ub_num2[a][b]==0:
             p1.append(ub_mean[a][b])
